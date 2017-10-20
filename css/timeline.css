@@ -5,8 +5,12 @@
     clear: both;
 }
 
+.title {
+    color: #fff;
+}
+
 html {
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Roboto', Montserrat;
 }
 
 *,
@@ -31,7 +35,7 @@ h3 {
 /*** The timeline styles and structure ***/
 
 .tl-wrapper {
-    background: #e4f0f4;
+    background: rgb(237, 238, 250);
     min-height: 1px;
     position: relative;
 }
@@ -39,6 +43,7 @@ h3 {
 .timeline {
     position: relative;
     width: 100%;
+    height: 100%;
     min-height: 1px;
     list-style: none;
     margin: 0;
@@ -109,7 +114,7 @@ h3 {
     right: 0;
     padding: 16px;
     padding: 1rem;
-    background: #B48834;
+    background: #3D428B;
     color: #fff;
 }
 
@@ -122,7 +127,7 @@ h3 {
     height: 0;
     border-style: solid;
     border-width: 21px 20px 21px 0;
-    border-color: transparent #B48834 transparent transparent;
+    border-color: transparent #3D428B transparent transparent;
 }
 
 
@@ -201,7 +206,7 @@ h3 {
     left: 0;
     margin: 0;
     padding: 16px 0 0 0;
-    border-top: 1px solid #b2e9ff;
+    border-top: 1px solid rgb(219, 221, 243);
     overflow-x: hidden;
     width: 100%;
 }
@@ -233,7 +238,7 @@ h3 {
     list-style: none;
     margin: 0;
     padding-top: 16px;
-    border-top: 1px dashed #B48834;
+    border-top: 1px dashed #3D428B;
     -webkit-transition: all .4s ease;
     transition: all .4s ease;
 }
@@ -253,7 +258,7 @@ h3 {
     width: 34px;
     height: 34px;
     margin: auto;
-    background: #B48834;
+    background: #3D428B;
     color: #fff;
     padding-top: 9px;
     border-radius: 1000px;
@@ -266,8 +271,8 @@ h3 {
     width: 70px;
     height: 70px;
     background: transparent;
-    color: #B48834;
-    border: 1px solid #B48834;
+    color: #3D428B;
+    border: 1px solid #3D428B;
     font-size: 24px;
     padding-top: 19px;
 }
@@ -280,7 +285,7 @@ h3 {
     top: -10px;
     left: 50%;
     margin-left: -2px;
-    background: #B48834;
+    background: #3D428B;
     border-radius: 1000px;
 }
 
@@ -305,7 +310,7 @@ h3 {
     position: absolute;
     width: 14px;
     height: 2px;
-    background: #B48834;
+    background: #3D428B;
 }
 
 .tl-nav-arrow-left {

@@ -58,7 +58,7 @@ html {
     position: absolute;
     width: 6px;
     height: 6px;
-    background: rgba(0, 0, 0, 0.85);
+    background: #fff;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
